@@ -60,7 +60,4 @@ public class A2Novice {
 		System.out.println("Lowest cals/$: " + names[lowestIndex]);
 		
 	}
-	
-	// You can define helper methods here if needed.
-	
 }
