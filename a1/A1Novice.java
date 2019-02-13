@@ -24,16 +24,11 @@ public class A1Novice {
 				scan.next();
 				double price = scan.nextDouble();
 				total[i] += amount * price;
-			}
-			
+			}			
 		}
 		
 		for (int i = 0; i<count; i++) {
 			System.out.println(firsts[i].charAt(0) + ". " + lasts[i] + ": " + String.format("%.2f",total[i]));
 		}
-		
-		// Your code goes here.
 	}
-	
-	// You can define / use static helper methods here.
 }
