@@ -7,7 +7,6 @@ public class A2Jedi {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		// Your code here.
 		int length = scan.nextInt();
 		double[] totalOz = new double[length];
 		String[] names = new String[length];
@@ -91,6 +90,4 @@ public class A2Jedi {
 			System.out.println(String.format("%.2f", totalOz[i]) + " ounces of " + names[i]);
 		}
 	}
-	// You can define helper methods here if needed.
-	
 }
