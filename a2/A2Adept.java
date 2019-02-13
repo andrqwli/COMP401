@@ -80,7 +80,4 @@ public class A2Adept {
 			}
 		}
 	}
-	
-	// You can define helper methods here if needed.
-	
 }
