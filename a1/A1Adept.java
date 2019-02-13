@@ -75,9 +75,5 @@ public class A1Adept {
 		System.out.println("Biggest: " + names[biggestIndex] + " (" + String.format("%.2f", totals[biggestIndex]) + ")");
 		System.out.println("Smallest: " + names[smallestIndex] + " (" + String.format("%.2f",totals[smallestIndex]) + ")");
 		System.out.println("Average: " + String.format("%.2f", average));
-
-		// Your code goes here.
 	}
-	
-	// You can define / use static helper methods here.
 }
