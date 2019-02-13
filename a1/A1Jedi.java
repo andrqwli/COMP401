@@ -58,9 +58,6 @@ public class A1Jedi {
 			} else {
 				System.out.println(numberOfCustomers[i] + " customers bought " + numberOfItems[i] + " " + itemNames[i]);
 			}
-		}	
-		// Your code goes here.
+		}
 	}
-	
-	// You can define / use static helper methods here.
 }
