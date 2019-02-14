@@ -78,8 +78,6 @@ public class A3Jedi {
 		System.out.println("The order will require:");
 		for (int i = 0; i < totals.length; i++) {
 			System.out.println(String.format("%.2f", totals[i]) + " ounces of " + ings[i].getName());
-		}
-
-	
+		}	
 	}
 }
