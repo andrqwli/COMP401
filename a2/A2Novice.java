@@ -7,7 +7,6 @@ public class A2Novice {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		// Your code here.
 		int length = scan.nextInt();
 		String[] names = new String[length];
 		double[] prices = new double[length];
