@@ -50,7 +50,5 @@ public class IngredientPortionImpl implements IngredientPortion {
 			IngredientPortion result = new IngredientPortionImpl(this.ing, amount + other.getAmount());
 			return result;
 		}
-	
 	}
-
 }
