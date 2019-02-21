@@ -7,7 +7,6 @@ public class A3Jedi {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		
 		Ingredient[] ings = new Ingredient[scan.nextInt()];
 		
 		for (int i = 0; i < ings.length; i++) {
