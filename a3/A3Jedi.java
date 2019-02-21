@@ -68,10 +68,7 @@ public class A3Jedi {
 						break;
 					}
 				}
-				
-				
 			}
-			
 		}
 		
 		System.out.println("The order will require:");
