@@ -61,7 +61,6 @@ public class A3Jedi {
 			
 			for (int j = 0; j < menu.length; j++) {
 				int length = menu[j].getIngredients().length;
-				
 				for (int k = 0; k < length; k++) {
 					if (localName.equals(menu[j].getIngredients()[k].getName())) {
 						totals[i] += menu[j].getIngredients()[k].getAmount() * order[j];
@@ -70,7 +69,6 @@ public class A3Jedi {
 				}
 			}
 		}
-		
 		System.out.println("The order will require:");
 		for (int i = 0; i < totals.length; i++) {
 			System.out.println(String.format("%.2f", totals[i]) + " ounces of " + ings[i].getName());
