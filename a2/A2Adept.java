@@ -76,7 +76,7 @@ public class A2Adept {
 				System.out.println("  Vegetarian");
 			} else {
 				System.out.println("  Non-Vegetarian");
-			}
+			} 
 		}
 	}
 }
