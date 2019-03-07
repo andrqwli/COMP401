@@ -21,8 +21,6 @@ public class IngredientImpl implements Ingredient {
 		this.price = price;
 		this.calories = calories;
 		this.is_vegetarian = is_vegetarian;
-	
-	
 	}
 
 	public String getName() {
