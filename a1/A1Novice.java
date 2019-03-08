@@ -8,7 +8,6 @@ public class A1Novice {
 		Scanner scan = new Scanner(System.in);
 		
 		int count = scan.nextInt();
-		
 		String[] firsts = new String[count];
 		String[] lasts = new String[count];
 		double[] total = new double[count];
