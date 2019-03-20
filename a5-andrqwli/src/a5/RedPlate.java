@@ -9,6 +9,5 @@ public class RedPlate extends PlateImpl {
 				throw new PlatePriceException();
 			}
 		}
-		
 	}
 }
