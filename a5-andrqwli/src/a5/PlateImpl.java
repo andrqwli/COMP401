@@ -54,5 +54,4 @@ public class PlateImpl implements Plate {
 		}
 		return price - contents.getCost();
 	}
-
 }
