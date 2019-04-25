@@ -21,7 +21,6 @@ public class PlateCounter implements BeltObserver {
 			if (b.getPlateAtPosition(i) == null) {
 				continue;
 			}
-			
 			switch (b.getPlateAtPosition(i).getColor()) {
 			case RED:
 				this.redCount++;
